@@ -1,0 +1,82 @@
+{
+    "students": [
+      {
+        "id": "1",
+        "name": "Alice",
+        "age": 20,
+        "email": "alice@example.com",
+        "classes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Bob",
+        "age": 20,
+        "email": "bob@example.com",
+        "classes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Charlizesad",
+        "age": 20,
+        "email": "char@example.comsd",
+        "classes": [
+          2
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Eric",
+        "age": 22,
+        "email": "eric@example.com",
+        "classes": [
+          1
+        ]
+      },
+      {
+        "id": "5b4e",
+        "name": "John",
+        "age": "55",
+        "email": "john@john.com",
+        "classes": []
+      },
+      {
+        "id": "2723",
+        "name": "Michella",
+        "age": "3",
+        "email": "michelle@test.com",
+        "classes": []
+      },
+      {
+        "id": "1bc7",
+        "name": "2323",
+        "age": "3",
+        "email": "asdasasd@a",
+        "classes": []
+      },
+      {
+        "id": "8587",
+        "name": "Karla",
+        "age": "1",
+        "email": "f@f.f",
+        "classes": []
+      }
+    ],
+    "classes": [
+      {
+        "id": "1",
+        "name": "Math 101",
+        "teacher": "Mr. Smith"
+      },
+      {
+        "id": "2",
+        "name": "History 201",
+        "teacher": "Mrs. Johnson"
+      }
+    ]
+  }
