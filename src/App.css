@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+}
+
+.panelleft {
+  width: 20%;
+}
+
+.panelright {
+  border: 1px solid #ccc;
+  width: 80%;
+}
+
+.link {
+  display: block;
+}

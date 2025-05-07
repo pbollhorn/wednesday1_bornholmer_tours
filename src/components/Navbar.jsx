@@ -2,14 +2,16 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav style={{ padding: "1rem", backgroundColor: "#eee" }}>
-      <Link to="/" style={{ marginRight: "1rem" }}>
+    <nav>
+      <Link to="/" className="link">
         Books
       </Link>
-      <Link to="/addbook" style={{ marginRight: "1rem" }}>
+      <Link to="/addbook" className="link">
         Add Book
       </Link>
-      <Link to="/findbook">Find Book</Link>
+      <Link to="/findbook" className="link">
+        Find Book
+      </Link>
     </nav>
   );
 }
