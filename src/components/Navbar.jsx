@@ -4,13 +4,13 @@ export default function Navbar() {
   return (
     <nav>
       <Link to="/" className="link">
-        Books
+        Travels
       </Link>
-      <Link to="/addbook" className="link">
-        Add Book
+      <Link to="/about" className="link">
+        About
       </Link>
-      <Link to="/findbook" className="link">
-        Find Book
+      <Link to="/admin" className="link">
+        Admin
       </Link>
     </nav>
   );

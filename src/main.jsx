@@ -3,23 +3,23 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css'
 import App from './App.jsx'
-import Books from "./components/Books";
-import AddBook from "./components/AddBook";
-import FindBook from "./components/FindBook";
+import Travels from "./components/Travels.jsx";
+import About from "./components/About.jsx";
+import Admin from "./components/Admin.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
-      { path: "/", element: <Books /> },
+      { path: "/", element: <Travels /> },
       {
-        path: "/addbook",
-        element: <AddBook />,
+        path: "/about",
+        element: <About />,
       },
       {
-        path: "/findbook",
-        element: <FindBook />,
+        path: "/admin",
+        element: <Admin />,
       },
     ],
   },
