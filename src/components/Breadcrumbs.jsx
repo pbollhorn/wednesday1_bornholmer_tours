@@ -12,11 +12,21 @@ export default function Breadcrumbs() {
       currentLink += `/${crumb}`;
 
       return (
-        <div className="crumb" key={crumb}>
-          <Link to={currentLink}>{crumb}</Link>
-        </div>
+        <span>
+          →
+          <Link to={currentLink} key={crumb} className="crumb">
+            {crumb}
+          </Link>
+        </span>
       );
     });
 
-  return <div className="breadcrumbs">{crumbs}</div>;
+  return (
+    <div className="breadcrumbs">
+      <Link to="/" className="crumb">
+        Home
+      </Link>
+      {crumbs}
+    </div>
+  );
 }

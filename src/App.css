@@ -4,6 +4,7 @@
 
 .panelleft {
   width: 20%;
+  background-color: lightgray;
 }
 
 .panelright {
@@ -13,4 +14,18 @@
 
 .link {
   display: block;
+}
+
+.topbanner {
+  background-color: lightgray;
+}
+
+.breadcrumbs {
+  background-color: lightgray;
+  margin-bottom: 5px;
+}
+
+.crumb {
+  margin-left: 10px;
+  margin-right: 10px;
 }
