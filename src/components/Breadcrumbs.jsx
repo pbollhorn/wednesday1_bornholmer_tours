@@ -2,7 +2,6 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function Breadcrumbs() {
   const location = useLocation();
-  console.log(location);
 
   let currentLink = "";
   const crumbs = location.pathname
@@ -12,9 +11,9 @@ export default function Breadcrumbs() {
       currentLink += `/${crumb}`;
 
       return (
-        <span>
+        <span key={crumb}>
           →
-          <Link to={currentLink} key={crumb} className="crumb">
+          <Link to={currentLink} className="crumb">
             {crumb}
           </Link>
         </span>

@@ -17,7 +17,15 @@
 }
 
 .topbanner {
+  display: flex;
+  align-items: center; /* Centers text vertically */
   background-color: lightgray;
+  margin-bottom: 5px;
+}
+.topbanner > div:nth-child(1) {
+  /* Styles for the first div child */
+  width: 80%;
+  color: red;
 }
 
 .breadcrumbs {
