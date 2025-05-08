@@ -9,7 +9,7 @@ export default function Home() {
         <p>
           Hos Bornholmer Tours brænder vi for at dele det bedste af Bornholm med
           dig! Øen, kendt som "Solskinsøen", byder på enestående natur,
-          spændende aktiviteter og mindeværdige oplevelser – og vi er her for at
+          spændende aktiviteter og mindeværdige oplevelser - og vi er her for at
           gøre dit besøg helt særligt.
         </p>
         <p>
